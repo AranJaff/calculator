@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <div class="calculator">
+
+        <div class="board">
+            <div class="history" id="line3"></div>
+            <div class="history" id="line2"></div>
+            <div class="history" id="line1"></div>
+            <div class="mirrorBoard"></div>
+            <div class="alert"></div>
+        </div>
+
+        <div class="container">
+            <button class="clear" data-key="27">C</button>
+            <button class="backspace" data-key="8"><img src="/Images/backspace.png"></button>
+            <button class="operators" value="^">^</button>
+            <button class="operators" value="/" data-key="111"><img src="Images/icons8-divide-50.png"></button>
+            <button class="operands" value="7" data-key="103">7</button>
+            <button class="operands" value="8" data-key="104">8</button>
+            <button class="operands" value="9" data-key="105">9</button>
+            <button class="operators" value="*" data-key="106"><img src="Images/icons8-multiply-50.png"></button>
+            <button class="operands" value="4" data-key="100">4</button>
+            <button class="operands" value="5" data-key="101">5</button>
+            <button class="operands" value="6" data-key="102">6</button>
+            <button class="operators" value="-" data-key="109"><img src="Images/icons8-minus-24.png"></button>
+            <button class="operands" value="1" data-key="97">1</button>
+            <button class="operands" value="2" data-key="98">2</button>
+            <button class="operands" value="3" data-key="99">3</button>
+            <button class="operators" value="+" data-key="107"><img src="Images/icons8-plus-math-50.png"></button>
+            <button class="operands" value="0" data-key="96">0</button>
+            <button class="operands" value="." data-key="110">.</button>
+            <button class="operators" value="%"><img src="Images/icons8-percentage-50.png"></button>
+            <button id="execOperator" value="=" data-key="13"><img src="Images/icons8-equal-sign-50.png"></button>
+        </div>
+    </div>
+    <div class="footer">&copy;<a href="https://github.com/AranJaff" target="_blank"> AranJaff</a> 2021</div>
+    <script src="/script.js"></script>
+</body>
+</html>
