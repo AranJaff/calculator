@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'myFont1';
-    src: url("/Exo-VariableFont_wght.ttf");
+    src: url("Fonts/Exo-VariableFont_wght.ttf");
 }
 
 .calculator {
